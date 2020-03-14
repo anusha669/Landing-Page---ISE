@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ISE</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <div class="container"> -->
+
+        <nav class="navbar fixed-top navbar-light bg-light justify-content-center" id="to_scroll">
+            <a class="nav-item active" href="#home">Home&nbsp;&nbsp; </a>
+            <a class="nav-item" href="#aboutUs">About US&nbsp;&nbsp; </a>
+            <a class="nav-item" href="#testimonials">Testimonials </a>
+        </nav>
+
+        <div data-spy="scroll" data-target="#to_scroll" data-offset="0">
+
+            <div class="row mt-5 py-5" id="home" style="background-color:#3498db;">
+                <div class="col-sm-6 py-5 pl-5 mt-5">
+                    <div id="text">Welcome to <span style="color:#c3cbd1;" id="Welcome">Zerone</span>.<br>
+                        The Information Science & Engineering department of MITE.</div>
+                    <div style="color: #c3cbd1; font-size: 15px">
+                        Where zeroes turn into ones...
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <img src="WOL/three-ppl.png" alt="images" class="img-fluid" style="width:100%;height:450px">
+                </div>
+                <button class="bg-primary text-light py-3" href="#aboutUs" style="border: none">Scroll down for more information</button>
+            </div>
+
+            <hr style="color: blue">
+            <div id="aboutUs" style="margin-top:100px;" class="about">
+                <h5 data-aos="slide-up" style="color:#3498db">ABOUT</h5>
+                <div class="row mt-5 pl-5" data-aos="fade-up">                    
+                    <div class="col-sm-4">
+                        <img src="WOL/anime-laptop.png" alt="IT image" style="width: 100%">
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-7 py-5 pr-5">
+                        The Department of Information Science & Engineering is one of the pioneer department
+                        of MITE. The department aims at nurturing skilled and quality professionals with a
+                        strong technical background who will excel in the dynamically changing world of
+                        information technology.
+                    </div>
+                </div>
+                
+                <h5 data-aos="slide-up" style="color:#3498db">ALUMNI</h5>
+                <div class="row mt-5 pl-5 " data-aos="fade-up">
+                    <div class="col-sm-7">
+                        <p>An organisation's alumni are the reflection of its past,
+                            representation of its present and a link to its future.
+                            The students of the department have excelled in every feild be it entreprenuership, technical knowledge.
+                        </p>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4">
+                        <img src="WOL/alumnis.jpg" alt="alumni image">
+                    </div>
+                </div>
+
+                <h5 data-aos="slide-up" style="color:#3498db">TESTIMONIALS</h5>
+                <div class="card pl-5" id="testimonials" data-aos="fade-up">
+                    <div class="card-body"></div>
+                    <!-- <button onclick="display()">test</button> -->
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+    <div class="footer fixed">
+        <div class="row">
+            <div class="col-sm-3">
+                follow us on:<br>
+                <a href="#" class="fa fa-facebook">facebook</a><br>
+                <a href="#" class="fa fa-instagram">instagram</a><br>
+                <a href="#" class="fa fa-twitter">twitter</a>
+            </div>
+            <div class="col-sm-3">
+                Contact us at:<br>
+                <a href="#" style="color: white">mail id</a>
+                <p style="color: white">Phone Number : 0820-</p>
+            </div>
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
