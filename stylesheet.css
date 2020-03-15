@@ -1,3 +1,20 @@
+
+  @media ( max-width: 670px) {
+    .fa-facebook{
+        display: block;
+        
+    }
+    .options{
+        display: none;
+    }
+    .text{
+        font-size: 15px;
+    }
+  }
+.fa-caret-right{
+    display: none;
+}
+
 nav{
     height: 80px;
 }
@@ -10,7 +27,6 @@ nav{
 }
 #text{
     font-size: 30px;
-    /* color:#3498db; */
 }
 .welcome-box{
     border-block: none;    
@@ -19,11 +35,9 @@ nav{
 #aboutUs{
     font-size:20px;
 }
-.about .row{
-    border: 0 solid #3498db;
-}
+
 h5 {
-    margin:80px auto;
+    margin:50px auto;
     width:20vw;
     text-align:center;
     font-family: helvetica;
@@ -36,4 +50,11 @@ h5 {
 }
 button{
     margin-left:40px;
+}
+
+.words{
+    box-shadow: 2px 2px gainsboro;
+    font-size: 20px;
+    width:400px;
+    height: 200px;
 }
